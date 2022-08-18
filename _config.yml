@@ -14,12 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Mechpro Thing
+subtitle: "Nothing here"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Mechatronics engineer in software development world.
 # twitter_username: username
 # github_username: username
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dirt
 search: true
 repository: MechaProgrammer/mechaprogrammer.github.io
 # Build settings
@@ -30,6 +31,7 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+teaser: /assets/images/post-placeholder.jpg
 
 include:
   - _pages
@@ -56,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Mech Bro"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My biography."
+  name: "Mech Bro"
+  avatar : "/assets/images/bio-statue.jpg"
+  bio: "My biography."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -94,7 +96,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
       sidebar:
