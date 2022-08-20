@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Mechpro Thing
+title: "@Decorated"
 subtitle: "Mechatronics engineer in software development world"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 # github_username: username
 minimal_mistakes_skin: dirt
 search: true
-repository: MechaProgrammer/mechaprogrammer.github.io
+repository: atdecorated/atdecorated.github.io
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -59,13 +59,13 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name: "Mech Bro"
+  name: "De Corator"
   avatar : "/assets/images/bio-statue.jpg"
-  bio: "My biography."
+  bio: "I am the writer."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://mechaprogrammer.github.io/"
+      url: "https://github.com/atdecorated"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
@@ -83,7 +83,7 @@ footer:
     #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://mechaprogrammer.github.io/"
+      url: "https://github.com/atdecorated"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
@@ -95,7 +95,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: false
       share: true
@@ -108,7 +108,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       sidebar:
         layout: single
         nav: "sidebar"

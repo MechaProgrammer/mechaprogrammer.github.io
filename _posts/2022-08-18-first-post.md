@@ -1,14 +1,16 @@
 ---
-title: "First post"
+title: "Welcome"
 categories:
   - blog
 tags:
   - python
 ---
 
-My first post in `_posts` directory.
+Hi,
 
-Testing a Python code:
+This is a blog about things, mainly software related.
+
+Testing a Python code snippet:
 
 ```python
 >>> print(123)
