@@ -3,13 +3,13 @@ main:
     url: /posts/
   - title: "About"
     url: /about/
+  - title: "Archive"
+    url: /archive
 
-sidebar:
-  - title: "Fun fact"
-    text: "Not a working text."
-  - title: "Cool things"
-    children:
-      - title: "Categories"
-        url: /categories/
-      - title: "Tags"
-        url: /tags/
+# sidebar:
+#   - title: "Misc"
+#     children:
+#       - title: "Categories"
+#         url: /categories/
+#       - title: "Tags"
+#         url: /tags/
