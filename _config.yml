@@ -63,7 +63,7 @@ plugins:
 author:
   name: "De Corator"
   avatar : "/assets/images/bio-statue.jpg"
-  bio: "I am the writer."
+  bio: "Software Engineer who works with delicate measurement instruments."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -71,9 +71,9 @@ author:
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
-    # - label: "GitHub"
-    #   icon: "fab fa-fw fa-github"
-    #   url: "https://github.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/atdecorated"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
