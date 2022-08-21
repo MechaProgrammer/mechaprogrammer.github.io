@@ -62,7 +62,7 @@ plugins:
 
 author:
   name: "De Corator"
-  avatar : "/assets/images/bio-statue.jpg"
+  avatar : "/assets/images/profpic.png"
   bio: "Software Engineer who works with delicate measurement instruments."
   links:
     - label: "Website"
