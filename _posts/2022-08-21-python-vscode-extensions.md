@@ -41,6 +41,13 @@ I like the visual representation of the Git graph. However, I still do most of t
 
 Helpful if I have to SSH to a remote machine and inspect or code something remotely. Game changer for me.
 
+### [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+
+> A basic spell checker that works well with code and documents.
+
+I notice spelling mistakes rather easily and that can be irritating if a text is filled with them. This extension can catch some
+of the mistakes early on. I would also suggest to add a spelling checker to your project's CI.
+
 ### [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
 > All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
