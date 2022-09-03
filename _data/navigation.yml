@@ -3,6 +3,8 @@ main:
     url: /posts/
   - title: "About"
     url: /about/
+  - title: "Recommended reading"
+    url: /recommended-reading/
   - title: "Archive"
     url: /archive
 
