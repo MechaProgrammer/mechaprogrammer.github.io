@@ -5,6 +5,8 @@ main:
     url: /about/
   - title: "Recommended reading"
     url: /recommended-reading/
+  - title: "Leetcode"
+    url: /leetcode/
   - title: "Archive"
     url: /archive
 
