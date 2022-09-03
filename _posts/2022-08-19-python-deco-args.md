@@ -74,9 +74,78 @@ Message from function
 Message after
 ```
 
+## Decorating a class method
+
+Decorating class methods is not much different than doing so to functions.
+Let's look at the example.
+We `print()` the `inner()` functions `*args` to see what they consist of.
+
+```python
+from functools import wraps
+
+def my_decorator(message):
+    def wrapper(func):
+        @wraps(func)
+        def inner(*args, **kwargs):
+            print(args)
+            return func(*args, **kwargs)
+        return inner
+    return wrapper
+
+class MyClass:
+    def __init__(self):
+        self.value = 0
+
+    @my_decorator("Hello")
+    def print_value(self):
+        print(self.value)
+```
+
+```python
+>>> obj = MyClass()
+>>> obj.print_value()
+(<__main__.MyClass object at 0x000002C38F2E7DC0>,)
+0
+```
+
+As we can see, the first argument of a class method is the class instance itself. Which makes sense as the methods have `self` as 
+the first argument.
+
+### Modifying the class with decorator
+
+Now we modify the class within the decorator just for fun.
+We change the `value` variable of the `MyClass` inside the decorator from 0 to 1000 and print the value.
+
+```python
+from functools import wraps
+
+def my_decorator(message):
+    def wrapper(func):
+        @wraps(func)
+        def inner(*args, **kwargs):
+            args[0].value = 1000  # Remember, this is the class instance when a class method is decorated
+            return func(*args, **kwargs)
+        return inner
+    return wrapper
+
+class MyClass:
+    def __init__(self):
+        self.value = 0
+
+    @my_decorator("Hello")
+    def print_value(self):
+        print(self.value)
+```
+
+```python
+>>> obj = MyClass()
+>>> obj.print_value()
+1000
+```
+
 # Conclusion
 
-Decorators are great when they are utilized properly. They can be used in various ways and that is
+Python decorators are great when they are utilized properly. They can be used in various ways and that is
 a topic for another day. 
 
 Have fun!
