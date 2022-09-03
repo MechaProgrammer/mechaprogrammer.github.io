@@ -2,7 +2,7 @@
 permalink: /recommended-reading/
 title: "Recommended reading"
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "Table of Contents"
 ---
 
 This is a list of book recommendations. Learning by doing and googling for StackOverFlow is popular, but sometimes taking a book
